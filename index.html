@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+<title>Document</title>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+    .mhr{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        cursor:pointer;
+
+        }
+    h1{
+        font-size: 40px;
+        margin-top: 200px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-weight: 600px;
+    }
+    .button-navbar{
+        border: 2px solid ;
+        color: rgb(243, 10, 107);
+        padding: 3px 25px;
+        border-radius: 20px;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        right: 40px;
+        cursor:pointer;
+    }
+    #fyp{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .button-section{
+        
+        border: 2px solid ;
+        color: rgb(243, 10, 107);
+        border-radius: 20px;
+        margin-top: 50px;
+        background-color:rgb(243, 10, 107) ;
+        color: white;
+        padding: 15px 50px;
+        position: absolute;
+        top: 60%;
+        left: 42%;
+        cursor:pointer;
+
+    }
+    .image2{
+     position: relative;
+     top: 150px;
+     left: 170px;
+     
+    }
+    .book{
+      position: absolute;
+      right: 400px;
+      
+    }
+    .p1{
+        position: absolute;
+        right: 210px;
+        font-weight: 450px; 
+        font-size: 70px;
+        top: 1100px;
+        font-family: arial black;
+
+    }
+    .center{
+        position: absolute;
+        right: 320px;
+        top: 1450px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .people{
+        position: absolute;
+        left: 200px;
+    }
+    .animals{
+        position: absolute;
+        left: 200px;
+        top: 1298px;
+        font-size: 70px;
+        font-family: arial black;
+    }
+    .food{
+        position: absolute;
+        left:210px;
+        top: 1450px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .card-img-top{
+        width: 450px;
+        position: absolute;
+        right: 140px;
+        margin-top: 400px;
+
+    }
+    .deneme{
+        font-size: 45px;
+        position: absolute;
+        left: 120px;
+        margin-top: 500px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .deneme2{
+        font-size: 20px;
+        position: absolute;
+        left: 120px;
+        margin-top:600px ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        
+    }
+    .deneme3{
+        width: 450px;
+        position: absolute;
+        left: 150px;
+        margin-top: 1100px;
+    }
+    .pixel{
+        font-size: 45px;
+        position: absolute;
+        right: 150px;
+        margin-top:1100px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .content3{
+        font-size: 20px;
+        margin-top: 1300px;
+        position: absolute;
+        right: 80px;
+
+    }
+     .desc-area{
+        display:flex ;
+        justify-content: center; 
+    }
+    .pixel2{
+        width:450px ;
+        position: absolute;
+        right: 50px;
+    }
+    .pc{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+    }
+    .desc-area{
+        width: 800px;
+        margin:0 auto;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+
+    }
+    .pc p{
+        font-size: 12px;
+    }
+    .metin{
+        font-size: 20px;
+        margin-top: 700px;
+        
+    }
+    .metin2{
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+     }
+    .title{
+        font-size: 45px;
+        
+    }
+    .pixel4{
+        font-size: 20px;
+        margin-top: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+    }
+    .baslık{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 2200px;
+        
+    }
+    .button-footer{
+        border: 2px solid ;
+        color: white;
+        padding: 15px 50px;
+        border-radius: 20px;
+        background-color:rgb(243, 10, 107) ;
+        margin-top: 40px;
+        position: absolute;
+        left: 42%;
+        cursor:pointer;
+        
+    }
+    .background{
+        margin-top: 110px;
+        width: 1340px;
+    }
+    
+   .footerlogo{
+       position: absolute;
+       left: 50px;
+       margin-bottom: 50px;
+       margin-top: 50px;
+      
+   }
+   .lorem{
+       line-height: 1.6;
+       font-size: 20px;
+       position: absolute;
+       left: 100px;
+       margin-top: 110px;
+       color: white;
+   }
+   .phone{
+       font-size: 20px;
+       position: absolute;
+       left: 100px;
+       margin-top: 285px;
+       color: white;
+   }
+   .email{
+       font-size: 20px;
+       position: absolute;
+       left: 100px;
+       margin-top: 330px;
+       color: white;
+   }
+   .yazi{
+       font-size: 30px;
+       font-family:fantasy;
+       position: absolute;
+       right: 540px;
+       margin-top: 30px;
+       color: white;
+
+   }
+   .altyazi{
+       font-size: 20px;
+       position: absolute;
+       right: 300px;
+       margin-top: 100px;
+       line-height: 1.6;
+       color: white;
+
+   }
+   #name{
+       border-radius: 5px;
+       padding: 10px;
+       line-height: inherit;
+       width: 15%;
+       position: absolute;
+       right: 463px;
+       margin-top: 240px;
+
+   }
+   .button-footer2{
+       margin-left: 20px;
+       padding: 10px 40px;
+       background-color:rgb(243, 10, 107) ;
+       color: white;
+       cursor: pointer;
+       position: absolute;
+       right: 250px;
+       margin-top: 240px;
+       border-radius: 4px;
+
+   }
+   .background2{
+       background-image: url("https://huddle-landing-page-with-curved-sections-mu.vercel.app/images/bg-footer-top-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: top center;
+        padding-top:157px;
+        margin-top: 192px;
+    }
+   .innerdiv{
+    background-color: hsl(192deg 100% 9%);
+   }
+    
+</style>
+<body>
+
+<img class="mhr" src="https://huddle-landing-page-with-curved-sections-mu.vercel.app/images/logo.svg"/>
+
+<button type="button" class="button-navbar">Try It Free</button>
+
+ <div>
+     <h1 id="myHead">
+         Build The Community Your Fans Will Love
+     </h1>
+ </div>
+
+ <div>
+      <p id="fyp">Huddle re-imagines the way we build communities. <br> You have a voice, but so does your audience. Create <br> connections with your users as you engage in genuine<br> discussion.</p>
+ </div>
+
+ <button type="button2" class="button-section">Get Started For Free</button>
+
+ <svg class="image2" width="1035" height="739" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><rect id="b" width="960" height="600" rx="20"/><filter x="-1.6%" y="-2.5%" width="103.1%" height="105%" filterUnits="objectBoundingBox" id="a"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0.145098039 0 0 0 0 0.180392157 0 0 0 0.181838768 0" in="shadowBlurOuter1"/></filter><path d="M20 0h920c11.046 0 20 8.954 20 20v44H0V20C0 8.954 8.954 0 20 0z" id="d"/><filter x="-1.6%" y="-23.4%" width="103.1%" height="146.9%" filterUnits="objectBoundingBox" id="c"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0.145098039 0 0 0 0 0.180392157 0 0 0 0.181838768 0" in="shadowBlurOuter1"/></filter><linearGradient x1="14.811%" y1="-22.362%" x2="75.996%" y2="119.406%" id="e"><stop stop-color="#FAD961" offset="0%"/><stop stop-color="#FF52C1" offset="100%"/></linearGradient><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="f"><stop stop-color="#00C7FA" offset="0%"/><stop stop-color="#007DFA" offset="100%"/></linearGradient><linearGradient x1="28.973%" y1="0%" x2="90.2%" y2="111.244%" id="g"><stop stop-color="#FF52C1" offset="0%"/><stop stop-color="#9952FF" offset="100%"/></linearGradient><rect id="i" width="320" height="512" rx="17.067"/><filter x="-4.2%" y="-2.6%" width="108.4%" height="105.3%" filterUnits="objectBoundingBox" id="h"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0.145098039 0 0 0 0 0.180392157 0 0 0 0.181838768 0" in="shadowBlurOuter1"/></filter><path d="M17.067 0h285.866C312.36 0 320 7.641 320 17.067v37.546H0V17.067C0 7.64 7.641 0 17.067 0z" id="k"/><filter x="-4.2%" y="-24.7%" width="108.4%" height="149.4%" filterUnits="objectBoundingBox" id="j"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0.145098039 0 0 0 0 0.180392157 0 0 0 0.181838768 0" in="shadowBlurOuter1"/></filter></defs><g fill="none" fill-rule="evenodd"><g transform="translate(10 10)"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="#FFF" xlink:href="#b"/><use fill="#000" filter="url(#c)" xlink:href="#d"/><use fill="#00252E" xlink:href="#d"/><rect fill="#E1E8EE" x="72" y="20" width="200" height="24" rx="5"/><g transform="translate(864 22)" fill="#D8D8D8"><rect width="32" height="4" rx="2"/><rect y="8" width="32" height="4" rx="2"/><rect y="16" width="32" height="4" rx="2"/></g><g transform="translate(72 138)"><circle fill="url(#e)" cx="48" cy="48" r="48"/><g transform="translate(152 12)" fill="#E1E8EE"><rect width="115" height="16" rx="3"/><rect y="32" width="400" height="8" rx="3"/><rect y="48" width="366.667" height="8" rx="3"/><rect y="64" width="333.333" height="8" rx="3"/></g><g transform="translate(600 36)" fill="#A7B9C8"><circle cx="12" cy="12" r="12"/><circle cx="76" cy="12" r="12"/><circle cx="44" cy="12" r="12"/><circle cx="108" cy="12" r="12"/><circle cx="140" cy="12" r="12"/></g></g><g transform="translate(72 274)"><circle fill="url(#f)" cx="45" cy="45" r="45"/><g transform="translate(149 9)" fill="#E1E8EE"><rect width="115" height="16" rx="3"/><rect y="32" width="400" height="8" rx="3"/><rect y="48" width="366.667" height="8" rx="3"/><rect y="64" width="333.333" height="8" rx="3"/></g><g transform="translate(597 33)" fill="#A7B9C8"><circle cx="12" cy="12" r="12"/><circle cx="76" cy="12" r="12"/><circle cx="44" cy="12" r="12"/></g></g><g transform="translate(72 417)"><circle fill="url(#g)" cx="45" cy="45" r="45"/><g transform="translate(149 9)" fill="#E1E8EE"><rect width="115" height="16" rx="3"/><rect y="32" width="400" height="8" rx="3"/><rect y="48" width="366.667" height="8" rx="3"/><rect y="64" width="333.333" height="8" rx="3"/></g><g transform="translate(597 33)" fill="#A7B9C8"><circle cx="12" cy="12" r="12"/><circle cx="76" cy="12" r="12"/><circle cx="44" cy="12" r="12"/><circle cx="108" cy="12" r="12"/></g></g></g><g transform="translate(706 218)"><use fill="#000" filter="url(#h)" xlink:href="#i"/><use fill="#FFF" xlink:href="#i"/></g><g transform="translate(706 218)"><use fill="#000" filter="url(#j)" xlink:href="#k"/><use fill="#00252E" xlink:href="#k"/></g><g transform="translate(738.133 236.773)"><rect fill="#E1E8EE" width="104" height="20.48" rx="4.267"/><g transform="translate(226.427 1.707)" fill="#D8D8D8"><rect width="27.307" height="3.413" rx="1.707"/><rect y="6.827" width="27.307" height="3.413" rx="1.707"/><rect y="13.653" width="27.307" height="3.413" rx="1.707"/></g></g><g transform="translate(738 326)"><circle fill="url(#e)" cx="15" cy="15" r="15"/><g transform="translate(46 3)" fill="#E1E8EE"><rect width="57.5" height="5.333" rx=".92"/><rect y="10.667" width="200" height="2.667" rx=".92"/><rect y="16" width="183.333" height="2.667" rx=".92"/><rect y="21.333" width="166.667" height="2.667" rx=".92"/></g></g><g transform="translate(738 464)"><circle fill="url(#e)" cx="15" cy="15" r="15"/><g transform="translate(46 3)" fill="#E1E8EE"><rect width="57.5" height="5.333" rx=".92"/><rect y="10.667" width="200" height="2.667" rx=".92"/><rect y="16" width="183.333" height="2.667" rx=".92"/><rect y="21.333" width="166.667" height="2.667" rx=".92"/></g></g><g transform="translate(738 372)"><g transform="translate(46 3)" fill="#E1E8EE"><rect width="57.5" height="5.333" rx=".92"/><rect y="10.667" width="200" height="2.667" rx=".92"/><rect y="16" width="183.333" height="2.667" rx=".92"/><rect y="21.333" width="166.667" height="2.667" rx=".92"/></g><circle fill="url(#f)" cx="15" cy="15" r="15"/></g><g transform="translate(738 510)"><g transform="translate(46 3)" fill="#E1E8EE"><rect width="57.5" height="5.333" rx=".92"/><rect y="10.667" width="200" height="2.667" rx=".92"/><rect y="16" width="183.333" height="2.667" rx=".92"/><rect y="21.333" width="166.667" height="2.667" rx=".92"/></g><circle fill="url(#f)" cx="15" cy="15" r="15"/></g><g transform="translate(738 418)"><g transform="translate(46 3)" fill="#E1E8EE"><rect width="57.5" height="5.333" rx=".92"/><rect y="10.667" width="200" height="2.667" rx=".92"/><rect y="16" width="183.333" height="2.667" rx=".92"/><rect y="21.333" width="166.667" height="2.667" rx=".92"/></g><circle fill="url(#g)" cx="15" cy="15" r="15"/></g><g transform="translate(738 556)"><g transform="translate(46 3)" fill="#E1E8EE"><rect width="57.5" height="5.333" rx=".92"/><rect y="10.667" width="200" height="2.667" rx=".92"/><rect y="16" width="183.333" height="2.667" rx=".92"/><rect y="21.333" width="166.667" height="2.667" rx=".92"/></g><circle fill="url(#g)" cx="15" cy="15" r="15"/></g><g transform="translate(738 602)"><circle fill="url(#e)" cx="15" cy="15" r="15"/><g transform="translate(46 3)" fill="#E1E8EE"><rect width="57.5" height="5.333" rx=".92"/><rect y="10.667" width="200" height="2.667" rx=".92"/><rect y="16" width="183.333" height="2.667" rx=".92"/><rect y="21.333" width="166.667" height="2.667" rx=".92"/></g></g><g transform="translate(738 648)"><g transform="translate(46 3)" fill="#E1E8EE"><rect width="57.5" height="5.333" rx=".92"/><rect y="10.667" width="200" height="2.667" rx=".92"/><rect y="16" width="183.333" height="2.667" rx=".92"/><rect y="21.333" width="166.667" height="2.667" rx=".92"/></g><circle fill="url(#f)" cx="15" cy="15" r="15"/></g></g></svg> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+<svg class="book" width="48" height="40" xmlns="http://www.w3.org/2000/svg"><path d="M29.44.24C21.336.236 12.88 2.062 4.346 4.43c-1.083.217-2.141.927-2.7 1.804-.515.825-.7 1.656-.862 2.526-.83 4.645-.728 9.207-.555 14.262.037 1.156.21 2.528.75 3.361.564.843 1.531 1.377 2.686 1.553 1.484.225 2.962.394 4.44.55l-.327 9.126a1.97 1.97 0 0 0 .744 1.676c.395.3.835.434 1.286.467.902.068 1.96-.318 2.487-1.318 2.301-4.432 3.747-6.388 6.626-9.332 7.51.184 14.065-.233 21.488-.782 2.624-.068 4.424-2.214 4.9-3.926 1.425-4.44 1.646-9.92 1.797-15.46.064-2.197-.698-4.352-2.047-5.491-1.281-1.04-2.834-1.418-4.256-1.803C36.851.748 32.898.267 29.44.24zm10.796 3.473c1.424.386 2.68.76 3.471 1.402 1.323 1.405 1.279 2.34 1.26 3.856-.149 5.373-.407 10.588-1.62 14.54-.523 1.474-1.433 2.523-3.154 2.682-7.561.56-14.122.99-21.723.775a1.083 1.083 0 0 0-.8.317c-3.194 3.224-4.828 5.466-7.261 10.15-.057.108-.18.172-.33.184-.102-.006-.143-.084-.15-.155l.33-9.895c.02-.534-.421-1.044-.952-1.102-1.77-.172-3.535-.383-5.308-.65-.762-.117-1.043-.325-1.252-.635-.363-.866-.354-1.401-.383-2.234-.17-5.009-.253-9.387.516-13.742.071-.645.312-1.304.568-1.854.424-.663 1.074-.76 1.725-.941 8.346-2.304 16.512-4.029 24.2-4.034 3.768.137 7.726.515 10.863 1.336zM11.407 12.2c-1.15 1.379-1.035 3.248-.147 4.502.464.655 1.188 1.183 2.07 1.302 1.144.094 1.87-.369 2.653-.901 1.42-1.235 1.564-3.387.484-4.942-.55-.792-1.428-1.268-2.326-1.3-1.23.012-2.065.56-2.734 1.339zm12.438-1.124c-1.145.037-2.071.83-2.637 1.686-.647.979-1.025 2.204-.501 3.406 1.007 2.31 4.486 2.282 5.875-.067.64-1.082.476-2.312 0-3.205-.475-.893-1.192-1.62-2.236-1.786a2.617 2.617 0 0 0-.501-.034zm10.098.217a3.835 3.835 0 0 0-1.068.117c-1.377.367-2.548 1.788-2.37 3.606.09.914.51 1.806 1.268 2.42.759.615 1.86.89 3.021.652 1.335-.274 2.161-1.349 2.437-2.388.276-1.038.207-2.096-.434-2.954-.709-.95-1.782-1.428-2.854-1.453zm-19.896 1.703c.257.002.46.084.668.384.467.674.337 1.694-.134 2.103-.47.409-.762.446-.968.418-.205-.028-.413-.17-.6-.434-.357-.503-.462-1.318.007-1.9.25-.331.708-.538 1.027-.571zm9.948.234c.04.006.487.266.701.667.214.402.254.775.05 1.119-.605 1.023-1.892.747-2.086.3-.074-.169-.019-.852.334-1.385.352-.533.795-.734 1.001-.701zm11.083.784c.065.087.224.671.1 1.136-.123.464-.324.75-.818.85-.632.13-.985 0-1.251-.216-.267-.216-.446-.58-.484-.968-.095-.965.252-1.19.8-1.336.642-.157 1.364.117 1.653.534z" fill="#FF52C1" fill-rule="nonzero"/></svg>
+
+<div class="p1">
+    <p> <br> <br>
+        2.7m+
+    </p>
+</div>
+
+<div class="center">
+    <p>
+        Messages Sent 
+    </p>
+</div>
+
+<img class="people" src="https://huddle-landing-page-with-curved-sections-mu.vercel.app/images/icon-communities.svg">
+
+<div class="animals">
+    <p>
+        1.4k+
+    </p>
+</div>
+
+<div class="food">
+    <p>
+        Communities Formed
+    </p>
+</div>
+<div>
+    <img class="card-img-top" src="https://huddle-landing-page-with-curved-sections-mu.vercel.app/images/illustration-grow-together.svg">
+</div>
+
+<div class="deneme">
+    <p>Grow Together</p>
+
+</div>
+<div class="deneme2">
+    <p>Generate meaningful discussions with your audience and build <br> a strong, loyal community. Think of the insightful conversations <br> miss out on with a feedback form.</p>
+</div>
+
+<img class="deneme3" src="https://huddle-landing-page-with-curved-sections-mu.vercel.app/images/illustration-flowing-conversation.svg">
+
+<div class="pixel">
+   <p>Flowing <br> Conversations</p> 
+   <div>
+
+<p class="metin2">You wouldn't paginate a conversation in real life, so why do it <br> online? Our threads have just-in-time loading for a more <br> flow.</p> 
+    </div>
+</div>
+<div class="content3">
+    
+     <div class="desc-area">
+        <div class="pc">
+            <h2 class="title">Your Users</h2>
+
+        </div> 
+        </div>
+        <div class="pixel4"> 
+            <p>It takes no time at all to integrate Huddle with your app's <br> authentication solution. This means, once signed in to your app, your <br> users can start chatting immediately.</p>
+        </div>
+
+        <img class="pixel2" src="https://huddle-landing-page-with-curved-sections-mu.vercel.app/images/illustration-your-users.svg">
+   
+    <div class="metin"></div>
+
+</div>
+<div class="baslık">Ready To Build Your Community?</div>
+    
+  <button type="button2" class="button-footer">Get Started For Free</button>
+</div>
+    
+    <!-- <img class="background" src="https://huddle-landing-page-with-curved-sections-mu.vercel.app/images/bg-footer-top-desktop.svg"> -->
+
+    <div class="background2">
+<div class="innerdiv">
+    <img class="footerlogo" src="https://huddle-landing-page-with-curved-sections-mu.vercel.app/images/logo.svg">
+
+
+<p class="lorem">Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Mauris nulla quam,<br> hendrerit lacinia vestibulum a, ultrices quis<br> sem.</p>
+
+
+<div class="phone">Phone: +1-543-123-4567</div>
+<div class="email"> example@huddle.com</div>
+<img class="facebooklogo" src="">
+
+<div class="yazi">NEWSLETTER</div>
+
+<div class="altyazi">To recieve tips on how to grow your community,<br> sign up to our weekly newsletter. We’ll never<br> send you spam or pass on your email address </div>
+
+<input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+
+       <button type="button" class="button-footer2">Subscribe</button>
+       <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+       
+    </div>
+    </div>
+
+</body>
+</html>
